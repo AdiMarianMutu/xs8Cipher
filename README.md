@@ -10,14 +10,14 @@ Examples:
 
 key **3t6w9z$C&F)J@Nc9** (128bit)
 
-'Hello World' encrypted 5 times with the same key
+'Hello World' encrypted 5 times with the same key and encoded in *base64*
 
 ```
-+2e6TonBFKGx3Y3hcIfz+gxJ/qUicpGOggiSQZQWCCc=
-lWuMjW8ydqjeLyVFDkUOdke5jjlIpFFlVx4OOndm/AM=
-j5YTcQCbUDs2zu+5SkZQ2xAdUhrXJ8j6O7+dlNDGckw=
-ozgogJ6pRS8bSv6ivVuDucSpNWYHXZC6GKHQtptHhVs=
-OEnob+xZQRTtHxk0WDDJV3fTVEWRLgVQOfp3f6edz5I=
+[0]: +2e6TonBFKGx3Y3hcIfz+gxJ/qUicpGOggiSQZQWCCc=
+[1]: lWuMjW8ydqjeLyVFDkUOdke5jjlIpFFlVx4OOndm/AM=
+[2}: j5YTcQCbUDs2zu+5SkZQ2xAdUhrXJ8j6O7+dlNDGckw=
+[3]: ozgogJ6pRS8bSv6ivVuDucSpNWYHXZC6GKHQtptHhVs=
+[4]: OEnob+xZQRTtHxk0WDDJV3fTVEWRLgVQOfp3f6edz5I=
 ```
 
 Image encrypted 2 times with the same key:
