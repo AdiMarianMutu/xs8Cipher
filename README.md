@@ -23,12 +23,15 @@ key **3t6w9z$C&F)J@Nc9** (128bit)
 Image encrypted 2 times with the same key:
 
 **Original Image**
+
 ![Alt Text](https://www.lpi.org/sites/default/files/LPI-CODE_0.jpg)
 
 **Encrypted Image [0]**
+
 ![Alt Text](https://i.imgur.com/w0UWMKp.png)
 
 **Encrypted Image [1]**
+
 ![Alt Text](https://i.imgur.com/iifeENl.png)
 
 
