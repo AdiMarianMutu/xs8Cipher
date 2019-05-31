@@ -41,4 +41,4 @@ Is really simple:
 
 It's a pseudo (**non-standard**) XOR-CBC encryption algorithm which uses SHA-256 to create random noise with an Initialization Vector.
 
-## I'm NOT an expert so please do not use this cipher to encrypt your sensitive data, can be dangerous and I'll not assume any fault!
+## I'm NOT an expert so please do not use this cipher to encrypt your sensitive data, can be dangerous and I'll not assume any responsibility for how you will use it!
