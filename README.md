@@ -1,2 +1,4 @@
 # xs8Cipher
-!!! DO NOT USE FOR SENSITIVE DATA !!! Cipher written just for fun!
+##**!!! DO NOT USE FOR SENSITIVE DATA !!!** 
+
+Cipher written just for fun!
