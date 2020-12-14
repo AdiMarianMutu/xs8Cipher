@@ -7,7 +7,7 @@ Cipher written just for fun!
 
 I've rewritten the entire algorithm, the new features:
 
-- The algorithm uses a 4 round encryption
+- The algorithm uses a 4 rounds cycle encryption
 - 256bit blocks (easily editable)
 - 256bit key / IV (easily editable)
 - Based on the new [BLAKE3](https://github.com/azureskydiver/Blake3Core) hash algorithm (you can use any hashing algorithm, but be sure to use a strong cryptographic hashing algorithm, as this is used to generate the sub IVs/keys)
@@ -48,4 +48,4 @@ Image encrypted 2 times with the same key:
 
 ![Alt Text](https://i.imgur.com/iifeENl.png)
 
-## I'm NOT an expert so please do not use this cipher to encrypt your sensitive data, can be dangerous and I'll not assume any responsibility for how you will use it!
+## I'm NOT an expert! Please do not use this cipher to encrypt your sensitive data, can be dangerous and I do not assume any responsibility for how you will use it!
