@@ -65,8 +65,6 @@ public partial class xs8 {
         public static byte[] Decrypt(byte[] data, byte[] masterKey) {
             subKey = new byte[ROUNDS][];
             subIv = new byte[ROUNDS][];
-            for (int i = 0; i < ROUNDS; ++i)
-                subKey[i] = blake3.ComputeHash(i == 0 ? masterKey : subKey[i - 1]);
 
             int encrDataLen = data.Length - (BLOCK_SIZE / 8);
             byte[] _data = data;
@@ -76,8 +74,10 @@ public partial class xs8 {
             Array.Copy(_data, 0, _decrData, 0, encrDataLen);
             Array.Copy(_data, encrDataLen, masterIv, 0, (BLOCK_SIZE / 8));
 
-            for (int i = 0; i < ROUNDS; ++i)
+            for (int i = 0; i < ROUNDS; ++i) {
+                subKey[i] = blake3.ComputeHash(i == 0 ? masterKey : subKey[i - 1]);
                 subIv[i] = blake3.ComputeHash(i == 0 ? masterIv : subIv[i - 1]);
+            }
 
             for (int r = ROUNDS - 1; r >= 0; --r) 
                 _decrData = _Decrypt(r, _decrData);
