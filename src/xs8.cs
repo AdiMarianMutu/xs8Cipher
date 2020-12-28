@@ -3,7 +3,7 @@ using Blake3Core;
 
 public partial class xs8 {
     private const ushort BLOCK_SIZE = 256;
-    private const ushort ROUNDS = 4;
+    private const ushort ROUNDS = 6;
 
     private static Blake3 blake3;
     private static RNGCryptoServiceProvider rng;
