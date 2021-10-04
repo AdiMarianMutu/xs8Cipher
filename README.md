@@ -11,7 +11,7 @@ I've rewritten the entire algorithm, the new features:
 - 256bit blocks (easily editable)
 - 256bit key / IV (easily editable)
 - Based on the new [BLAKE3](https://github.com/azureskydiver/Blake3Core) hash algorithm (you can use any hashing algorithm, but be sure to use a strong cryptographic hashing algorithm, as this is used to generate the sub IVs/keys)
-- Each round has his unique IV/KEY computed from BLAKE3
+- Each round has its unique IV/KEY computed from BLAKE3
 
 ---
 
